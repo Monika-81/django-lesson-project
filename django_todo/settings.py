@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-g6nhs7s6fh!sh5%qt@m_&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')], ['https://todolist-django-project.herokuapp.com/']
+ALLOWED_HOSTS = ['https://todolist-django-project.herokuapp.com/']
 
 
 # Application definition
